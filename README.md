@@ -2,7 +2,7 @@
 
 <!-- FUTURISTIC INDUSTRIAL HEADER -->
 <h1 align="center">
-  <font color="#00F0FF"><b>PRAZIN S</b></font>
+  <font color="#00F0FF"><b>PRAJIN S</b></font>
 </h1>
 <p align="center">
   <b>B.TECH ARTIFICIAL INTELLIGENCE & DATA SCIENCE | SOFTWARE ENGINEER</b>
