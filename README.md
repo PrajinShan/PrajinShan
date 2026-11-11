@@ -1,8 +1,7 @@
 <div align="center">
 
-<!-- FUTURISTIC INDUSTRIAL HEADER -->
 <h1 align="center">
-  <font color="#00F0FF"><b>PRAJIN S</b></font>
+  <font color="#00F0FF"><b>PRAZIN S</b></font>
 </h1>
 <p align="center">
   <b>B.TECH ARTIFICIAL INTELLIGENCE & DATA SCIENCE | SOFTWARE ENGINEER</b>
@@ -31,16 +30,4 @@
   "cgpa": "7.8 / 10.0 (Upto 6th Sem)",
   "objective": "Leveraging data science, machine learning, and automation to design high-performance systems.",
   "primary_stack": ["Python", "Java", "SQL", "Pandas", "NumPy", "Git"]
-}
-```console
-root@cyberdeck:~# cat /user/profile.json
-{
-  "identity": "Prajin S",
-  "status": "AI & Data Science Specialist",
-  "core_subroutines": [
-    "Computer Vision & Deep Learning Execution",
-    "High-Performance Backend Systems (FastAPI / Spring Boot)",
-    "Cross-Platform Mobile Interface Engineering (Flutter)"
-  ],
-  "current_directive": "Deploying intelligent neural models & real-time analytics pipelines"
 }
