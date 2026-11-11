@@ -1,24 +1,36 @@
 <div align="center">
 
-<!-- NEON HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f2fe,100:4facfe&height=220&section=header&text=PRAZIN%20S&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=SYSTEM%20ARCHITECT%20%7C%20AI%20%26%20DATA%20ENGINEER&descAlignY=62&descAlign=50" width="100%" alt="Header"/>
+<!-- FUTURISTIC INDUSTRIAL BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0284c7,100:0f172a&height=200&section=header&text=PRAZIN%20S&fontSize=54&fontColor=00f0ff&fontAlignY=36&desc=ARTIFICIAL%20INTELLIGENCE%20%26%20DATA%20SCIENCE%20ENGINEER&descAlignY=60&descAlign=50" width="100%" alt="Header"/>
 
-<!-- ANIMATED TERMINAL SUBTITLE -->
+<!-- DYNAMIC STACK TYPING -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=600&height=50&lines=%3E_INITIALIZING_NEURAL_INTERFACE...;%3E_BUILDING_VISION-BASED_AI_SYSTEMS;%3E_CRAFTING_CROSS-PLATFORM_EXPERIENCES;%3E_EXECUTING_FULL_STACK_PIPELINES;" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=650&height=45&lines=%3E_Computer_Vision_%26_Real-Time_Pose_Tracking;%3E_FastAPI_%26_Spring_Boot_Backend_Architectures;%3E_Cross-Platform_Mobile_UI_%2F_Flutter_Development;%3E_Applied_Machine_Learning_%26_Data_Pipelines;" alt="Typing SVG" />
 </a>
 
 <p align="center">
-  <code>⚡ SYSTEM STATUS: ONLINE</code> &nbsp;|&nbsp; 
-  <code>📡 MATRIX NODE: ERODE // INDIA</code> &nbsp;|&nbsp; 
-  <code>🛡️ THREAT LEVEL: ZERO</code>
+  <code>📍 LOCATION: ERODE, TAMIL NADU, INDIA</code> &nbsp;•&nbsp; 
+  <code>FOCUS: AI Systems, Full-Stack & Mobile</code>
 </p>
 
 ---
 
 </div>
 
-## 🧬 `// MAIN_PROCESS_LOGS`
+## ⚙️ Core Technical Profile
+
+```json
+{
+  "engineer": "Prajin S",
+  "degree": "B.Tech in Artificial Intelligence & Data Science",
+  "institution": "Velalar College of Engineering and Technology",
+  "specializations": [
+    "Computer Vision & Pose Tracking",
+    "Scalable Backend Architecture",
+    "Cross-Platform Mobile Applications"
+  ],
+  "primary_stack": ["Python", "FastAPI", "Flutter", "Spring Boot", "OpenCV", "MediaPipe"]
+}
 
 ```console
 root@cyberdeck:~# cat /user/profile.json
