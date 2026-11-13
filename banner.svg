@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" fill="none">
+  <defs>
+    <!-- Deep Dark Blue to Dark Emerald Green Base -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#030816"/>
+      <stop offset="52%" stop-color="#06162d"/>
+      <stop offset="100%" stop-color="#041d18"/>
+    </linearGradient>
+
+    <!-- Atmospheric Dark Blue & Dark Green Ambient Glows -->
+    <radialGradient id="blueOrb" cx="16%" cy="24%" r="55%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#030816" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="greenOrb" cx="85%" cy="74%" r="56%">
+      <stop offset="0%" stop-color="#047857" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#041d18" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldAura" cx="78%" cy="48%" r="36%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#041d18" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Luxury Gold & Emerald Gradients -->
+    <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.06"/>
+      <stop offset="50%" stop-color="#f3d97d" stop-opacity="0.58"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="emeraldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.08"/>
+      <stop offset="55%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <!-- 3D Isometric Prism Faces -->
+    <linearGradient id="faceLeft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#07122b" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="faceRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#065f46" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#031a15" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="faceTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f3d97d" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#b48a1e" stop-opacity="0.86"/>
+    </linearGradient>
+
+    <pattern id="microGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="rgba(255,255,255,0.025)" stroke-width="1"/>
+    </pattern>
+
+    <style>
+      .flow1 { animation: wave 9s ease-in-out infinite; }
+      .flow2 { animation: wave 12s ease-in-out infinite reverse; }
+      .prism { animation: floatPrism 6.5s ease-in-out infinite; transform-origin: 960px 140px; }
+      .pulse { animation: glowPulse 4s ease-in-out infinite; }
+      .sans { font-family: 'Plus Jakarta Sans', 'Segoe UI', -apple-system, sans-serif; }
+      .serif { font-family: Georgia, 'Times New Roman', serif; font-style: italic; }
+      .mono { font-family: 'JetBrains Mono', 'SF Mono', Consolas, monospace; }
+      @keyframes wave {
+        0%, 100% { opacity: 0.45; transform: translateY(0px); }
+        50% { opacity: 0.95; transform: translateY(-5px); }
+      }
+      @keyframes floatPrism {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-7px); }
+      }
+      @keyframes glowPulse {
+        0%, 100% { opacity: 0.55; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas & Ambient Layers -->
+  <rect width="1200" height="280" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#microGrid)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#blueOrb)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#greenOrb)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#goldAura)"/>
+
+  <!-- Flowing Gold & Emerald Architectural Contours -->
+  <g class="flow1">
+    <path d="M-30 225 C 190 145, 420 265, 680 170 C 900 90, 1060 195, 1240 120" stroke="url(#goldLine)" stroke-width="1.35"/>
+    <path d="M-30 245 C 210 170, 440 280, 700 192 C 920 118, 1075 215, 1240 148" stroke="url(#goldLine)" stroke-width="0.9"/>
+  </g>
+  <g class="flow2">
+    <path d="M-20 74 C 240 130, 470 22, 740 86 C 950 135, 1085 38, 1235 80" stroke="url(#emeraldLine)" stroke-width="1.2"/>
+    <path d="M120 278 C 350 185, 560 262, 810 198 C 985 152, 1105 228, 1245 178" stroke="url(#emeraldLine)" stroke-width="0.95"/>
+  </g>
+
+  <!-- Minimal Left Identity (Short & Clean) -->
+  <line x1="68" y1="74" x2="96" y2="74" stroke="#d4af37" stroke-width="1.6"/>
+  <text x="108" y="78" fill="#ebd078" font-size="11" letter-spacing="3.5" class="mono">AI &amp; DATA SCIENCE</text>
+
+  <text x="66" y="142" fill="#f8fafc" font-size="52" font-weight="600" letter-spacing="-1.4" class="sans">
+    Prajin <tspan fill="#ebd078" class="serif" font-weight="500">Shanmugaraj</tspan>
+  </text>
+
+  <text x="68" y="182" fill="#cbd5e1" font-size="16" letter-spacing="1.2" class="sans">
+    Vision <tspan fill="#d4af37">·</tspan> Data <tspan fill="#10b981">·</tspan> Systems
+  </text>
+
+  <text x="68" y="224" fill="#64748b" font-size="11.5" letter-spacing="2" class="mono">
+    VCET '26  ·  ERODE, INDIA
+  </text>
+
+  <!-- Right 3D Isometric Gold / Dark Blue / Dark Green Geometric Prism -->
+  <g class="prism">
+    <!-- Orbiting Gold Ring -->
+    <ellipse cx="965" cy="142" rx="108" ry="34" transform="rotate(-18 965 142)" stroke="#d4af37" stroke-opacity="0.42" stroke-width="1.2" stroke-dasharray="6 5"/>
+    <ellipse cx="965" cy="142" rx="124" ry="42" transform="rotate(14 965 142)" stroke="#10b981" stroke-opacity="0.28" stroke-width="1"/>
+
+    <!-- Isometric Cube / Monolith -->
+    <!-- Top Gold Face -->
+    <polygon points="965,70 1022,102 965,134 908,102" fill="url(#faceTop)" stroke="#fef08a" stroke-opacity="0.55" stroke-width="1"/>
+    <!-- Left Dark Sapphire Face -->
+    <polygon points="908,102 965,134 965,204 908,172" fill="url(#faceLeft)" stroke="#60a5fa" stroke-opacity="0.4" stroke-width="1"/>
+    <!-- Right Dark Emerald Face -->
+    <polygon points="965,134 1022,102 1022,172 965,204" fill="url(#faceRight)" stroke="#34d399" stroke-opacity="0.45" stroke-width="1"/>
+
+    <!-- Inner Glowing Gold Core Lines -->
+    <line x1="965" y1="134" x2="965" y2="204" stroke="#f3d97d" stroke-opacity="0.65" stroke-width="1.2"/>
+    <circle class="pulse" cx="965" cy="102" r="4.5" fill="#ffffff" fill-opacity="0.85"/>
+    <circle class="pulse" cx="868" cy="154" r="3" fill="#ebd078"/>
+    <circle class="pulse" cx="1068" cy="128" r="2.8" fill="#10b981"/>
+  </g>
+
+  <!-- Luxury Corner Framing Hairlines -->
+  <path d="M 22 44 L 22 22 L 44 22" stroke="#d4af37" stroke-opacity="0.5" stroke-width="1.2"/>
+  <path d="M 1156 22 L 1178 22 L 1178 44" stroke="#10b981" stroke-opacity="0.5" stroke-width="1.2"/>
+  <path d="M 22 236 L 22 258 L 44 258" stroke="#3b82f6" stroke-opacity="0.5" stroke-width="1.2"/>
+  <path d="M 1156 258 L 1178 258 L 1178 236" stroke="#d4af37" stroke-opacity="0.5" stroke-width="1.2"/>
+
+  <!-- Outer Glass Border -->
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="17.5" stroke="rgba(255,255,255,0.1)"/>
+</svg>
